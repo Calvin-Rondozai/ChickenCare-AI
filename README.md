@@ -298,23 +298,22 @@ Ensure `model/chicken_disease_model_efficientnetb0_final.h5` and `model/label_en
 ## Research & Attribution
 
 This project uses:
-- **EfficientNet** — Tan & Le (2019) - Efficient and Scalable CNNs
+- **EfficientNet** - Efficient and Scalable CNNs
 - **Transfer Learning** — Fine-tuned on poultry disease datasets
-- **Grad-CAM** — Selvaraju et al. (2016) - Visual Explanations from CNNs
+- **Grad-CAM** - Visual Explanations from CNNs
 
-## License
-
-Specify your license here (MIT, Apache 2.0, etc.)
 
 ## Contact & Support
 
 For bugs, feature requests, or questions:
+- rondozaicalvin@gmail.com / rondozaicalvin@outlook.com
+             OR
 - Create an issue in the repository
 - Check the `/debug-gradcam` endpoint for diagnostic info
 
 ---
 
 **Status**: Production-ready  
-**Last Updated**: February 2026  
+**Last Updated**: March 2026  
 **Python Version**: 3.8+  
-**TensorFlow**: 2.15+
+**TensorFlow**: 2.10
