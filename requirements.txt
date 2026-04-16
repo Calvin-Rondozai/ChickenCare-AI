@@ -1,6 +1,6 @@
 flask
 numpy
-tensorflow
+tensorflow==2.10.0
 cv2 (opencv-python)
 pickle
 os
