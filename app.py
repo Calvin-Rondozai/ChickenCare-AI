@@ -15,7 +15,7 @@ app = Flask(__name__, template_folder="pages")
 model_path = os.path.join("model", "chicken_disease_model_efficientnetb0_final.h5")
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Model not found at: {model_path}")
-model = load_model(model_path)
+model = load_model(model_path, compile=False)
 
 label_encoder_path = os.path.join("model", "label_encoder.pkl")
 if not os.path.exists(label_encoder_path):
