@@ -1,5 +1,4 @@
 flask
 numpy
 opencv-python
-pickle
-threading
+keras
