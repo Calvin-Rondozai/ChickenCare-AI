@@ -1,4 +1,5 @@
 flask
 numpy
+tensorflow
 opencv-python
-keras
+pickle-mixin
